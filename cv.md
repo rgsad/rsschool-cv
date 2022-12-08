@@ -3,7 +3,7 @@ RS
 
 Contacts:
 
---------------------------git
+-------------------------
 
 * discord: rs#6602
 * mail: rsad3262@gmail.com
@@ -24,6 +24,7 @@ Human Languages:
 -------------------------
 
 *Russian (native speaker)
+
 *English (A2)
 
 -------------------------
