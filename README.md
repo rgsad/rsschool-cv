@@ -1,1 +1,1 @@
-https://rgsad.github.io/rsschool-cv/cv
+https://rgsad.github.io/rsschool-cv/
