@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    font-family: 'Poppins', sans-serif;
+}
+.navigation {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+
+.menu {
+    width: 60vw;
+    margin-left: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 1em;
+    list-style: none;
+    font-size: 18px;
+}
+
+.menu a {
+    display: block;
+    padding: 1em;
+    letter-spacing: .2em;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: #CDD0D0;
+}
+
+.menu a:hover {
+    text-decoration: underline #CDD0D0;;
+    text-underline-offset: 8px;
+}
+
+.hero {
+    display: flex;
+    align-items: flex-end;
+    height: 100vh;
+    background-color: #090101;  
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.background-image {
+    display: block;
+    max-width: 25%;
+}
+
+.hero h1 {
+    font-size: 2em;
+    letter-spacing: .1em;
+    line-height: 1.8em;
+    text-align: start;
+    margin-top: 10%;
+    color: #CDD0D0;
+    white-space: pre-wrap;
+}
+
+#about {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    text-align: start;
+    white-space: wrap;
+    background-color: #989898;
+}
+#about h2 {
+    margin-bottom: .5em;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.contacts a {
+    display: inline-block;
+    text-decoration: underline #CDD0D0;;
+    text-underline-offset: 8px;
+    text-align: center;
+    color: black;
+}
+
+#skills {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #A9A9A9;
+    font-size: 1.5em;
+}
+
+#skills h2 {
+    margin-bottom: 5%;
+    text-align: center;
+    letter-spacing: .2em;
+}
+
+ol>li {
+    margin-left: 10%;
+}
+.code {
+    font-size: .8em;
+}
+#portfolio {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#A9A9A9;
+}
+#portfolio img {
+    width: 45vw;
+    margin: 0 auto;
+}
+
+.button {
+    display: block;
+    border: none;
+    font-size: inherit;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer {
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #989898;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <title>CV</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav class="navigation">
+               <ul class="menu">
+                 <li><a href="#about">About me</a></li>
+                 <li><a href="#skills">Skills</a></li>
+                 <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#">Home</a></li>
+               </ul>
+            </nav>
+        </header>
+        <main class="main">
+            <section class="hero">
+                <div class="wrapper">
+                    <img class="background-image" src="images/avatar.png" alt="avatar">
+                  <h1>Rustam Sadovsky,<br>    student of RS School<br>        (Javascript/Front-end. Stage 0)</h1>
+                </div>
+            </section> 
+            <section id="about">
+                  <h2>About me</h2>
+                  <p> Hello, I'm Rustam Sadovsky! I am a complete beginner in web development.</p>
+                  <p>I have enrolled to study at RS School  and I want to become a front-end developer.</p>
+                  <p>I'm open to new knowledge. I like study new technologies and apply them in practice.</p>
+                  <p>My level English is A2</p>
+                  <div>
+                    <span>You contact me at</span><ul class="contacts">
+                        <li><a href="https://t.me/ironic_man" target="_blank">&nbsp;telegram</a> or&nbsp;</li>
+                        <li><a href="mailto:rsad3262@gmail.com" target="_blank">mail</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section id="skills">
+                <h2>Skills</h2>
+                <div class="wrapper">
+                <div class="frontend_skills">
+                  <p>I was studying front-end skills on CodeBasics:</p>
+                  <ol>
+                      <li>HTML (basic)</li>
+                      <li>CSS (basic)</li>
+                      <li>Javascript (basic)</li>
+                  </ol>
+                </div>
+                <div class="code">
+                    <pre><code>
+                    //  function which answers the question "Are you playing banjo?" (8kyu).
+                    function areYouPlayingBanjo(name) {
+                        if (name[0].toLowerCase() === 'r') {
+                            return `${name} plays banjo`;  
+                        } else {
+                            return `${name} does not play banjo`; 
+                        }
+                    }
+                    </code></pre>
+                </div>
+                </div>
+            </section>
+            <section id="portfolio">
+                <h2>Portfolio</h2>
+                <p>I created the web page for the first time. Just click on the picture below.</p>
+                <a href="https://rgsad.github.io/rsschool-cv/"><img src="images/portfolio.png" alt="portfolio"></a>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2022 by Rustam Sadovsky</p>
+            <div><a href="https://rgsad.github.io/rsschool-cv/" target="_blank"><img src="icons/github.svg" width="50" alt="github"></a></div>
+            <div><a href="https://rs.school/js/" target="_blank"><img src="icons/rs_school_js.svg" alt="RS School" width="86"></a></div>
+        </footer>
+    </div>
+</body>
+</html>
